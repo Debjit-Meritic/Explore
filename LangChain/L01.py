@@ -102,9 +102,9 @@ attribute_constraint_value: If the user mentions a value for the attribute const
 Format the output as JSON with the following keys:
 metric
 metric_present
-time_constraint
 time_constraint_bucketing
-time_constraint_value
+time_constraint_start
+time_constraint_end
 attribute_constraint
 attribute_constraint_value
 
@@ -126,7 +126,7 @@ Assistant:"(
 User: "What happened with the subscriptions in Brazil?",
 Assistant:"(
     "metric": "subscriptions",
-    "metric_present", "False",
+    "metric_present", "True",
     "time_constraint": "Date",
     "time_constraint_bucketing": "month",
     "time_constraint_start": "(Apr, 2024)",
