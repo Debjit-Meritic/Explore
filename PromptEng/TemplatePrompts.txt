@@ -1,0 +1,10 @@
+prompt = f"""
+{{"Task": "Help a marketing team create a 
+description for a retail website of a product based 
+on a technical fact sheet.",
+"Instructions": "Write a product description based on the information 
+provided in the technical specifications while keeping track of the constraints mentioned.",
+"Constraints":
+    [{{"Max Word Count": "50"}}],
+"Technical specifications": "{fact_sheet_chair}"}}
+"""

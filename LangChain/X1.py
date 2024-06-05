@@ -26,7 +26,6 @@ class AnalysisInput(BaseModel):
     
 @tool(args_schema = AnalysisInput)
 def create_analysis(
-    
     metric: str,
     time_constraint: str,
     time_constraint_bucketing: str,
@@ -47,7 +46,7 @@ def create_analysis(
     }
     json_info = json.dumps(info, indent = 4)
     # print(json_info)
-    f.write("JSON: " + json_info + "\n")
+    # f.write("JSON: " + json_info + "\n")
     return json_info
 
 tools = [create_analysis]
@@ -115,15 +114,18 @@ memory = ConversationBufferMemory(return_messages=True,memory_key="chat_history"
 from langchain.agents import AgentExecutor
 import textwrap
 agent_executor = AgentExecutor(agent = agent_chain, tools = tools, verbose = True, memory = memory)
+agent_executor.verbose = True
+print(agent_executor({"input": "How did revenue perform for Q1 2024?"}))
 
-f = open("conversation.txt", "w")
-while(True):
-    user_prompt = input()
-    if user_prompt == "q":
-        break 
+# f = open("conversation.txt", "w")
+# while(True):
+#     user_prompt = input()
+#     if user_prompt == "q":
+#         break 
     
-    f.write("USER: " + textwrap.fill(user_prompt, 100) + "\n")
-    f.write("AGENT: " + textwrap.fill(agent_executor({"input": user_prompt})['output'], 100) + "\n\n")
-    f.flush()
+#     f.write("USER: " + textwrap.fill(user_prompt, 100) + "\n")
+#     f.write("AGENT SCRATCHPAD: " + textwrap.fill(agent_executor({"input": user_prompt})['agent_scratchpad'], 100) + "\n")
+#     f.write("AGENT: " + textwrap.fill(agent_executor({"input": user_prompt})['output'], 100) + "\n\n")
+#     f.flush()
 
-f.close()
+# f.close()

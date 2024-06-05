@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Leads",
+        "id": "541d8be9-f2de-40bc-adef-39be964f9188"
+    },
+    {
+        "name": "LTV",
+        "id": "c14653b8-baff-4e2e-9f93-f959c135cf46"
+    },
+    {
+        "name": "Revenue Formula",
+        "id": "9ae41ab4-686a-483c-b3d0-ef79da091530"
+    },
+    {
+        "name": "Primary Enrollments",
+        "id": "755b33bc-ac07-4cff-a979-682e26a5b616"
+    },
+    {
+        "name": "Revenue-2",
+        "id": "c8e1a101-b6a9-4a81-b7fd-451d771ce28b"
+    },
+    {
+        "name": "Marketing Cost (UE)",
+        "id": "0d8333a7-3b2d-48c6-b499-810b217f7ceb"
+    },
+    {
+        "name": "Revenue",
+        "id": "792302d0-e140-481c-b530-2282abb3710e"
+    },
+    {
+        "name": "Cash Receipts",
+        "id": "9bfeeee0-3404-4af6-9352-fa98f4a231cc"
+    },
+    {
+        "name": "Leads New",
+        "id": "7cfefc7e-b024-4457-89c1-6a654dfbb437"
+    },
+    {
+        "name": "Services Cost (UE)",
+        "id": "de33a1a5-551a-4c37-9b97-fc0264c47aaf"
+    },
+    {
+        "name": "Sales Cost (UE)",
+        "id": "d4e8789b-d38e-4c56-9ab4-2ead80fb7530"
+    },
+    {
+        "name": "Revenue-1",
+        "id": "2f207280-9d0b-46a5-a311-4a201a877f63"
+    },
+    {
+        "name": "Contribution Margin %",
+        "id": "7bd3d67a-368c-48a8-ae53-0180286921ca"
+    },
+    {
+        "name": "Contribution Margin (UE)",
+        "id": "15a9635a-47c8-48ce-9c5b-d4deebaadf25"
+    },
+    {
+        "name": "Test metric",
+        "id": "541e3b83-96a7-4940-9fc8-b0a4e0250352"
+    },
+    {
+        "name": "Revenue-2-1",
+        "id": "31b955aa-e8be-4df8-a27e-909a0cc39ee4"
+    }
+]

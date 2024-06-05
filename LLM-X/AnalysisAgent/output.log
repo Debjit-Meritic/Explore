@@ -1,0 +1,111 @@
+
+
+[1m> Entering new AgentExecutor chain...[0m
+
+
+[1m> Entering new RunnableSequence chain...[0m
+
+
+[1m> Entering new RunnableAssign<agent_scratchpad> chain...[0m
+
+
+[1m> Entering new RunnableParallel<agent_scratchpad> chain...[0m
+
+
+[1m> Entering new RunnableLambda chain...[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new ChatPromptTemplate chain...[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new OpenAIFunctionsAgentOutputParser chain...[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+[32;1m[1;3mHello! I'm Terimic, your AI assistant for the data analysis platform Meritic. How can I assist you with your data analysis today?[0m
+
+[1m> Finished chain.[0m
+[32m2024-05-16 16:31:26.487[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m231[0m - [1m{'input': 'Hi', 'chat_history': [HumanMessage(content='Hi'), AIMessage(content="Hello! I'm Terimic, your AI assistant for the data analysis platform Meritic. How can I assist you with your data analysis today?")], 'output': "Hello! I'm Terimic, your AI assistant for the data analysis platform Meritic. How can I assist you with your data analysis today?"}[0m
+
+
+[1m> Entering new AgentExecutor chain...[0m
+
+
+[1m> Entering new RunnableSequence chain...[0m
+
+
+[1m> Entering new RunnableAssign<agent_scratchpad> chain...[0m
+
+
+[1m> Entering new RunnableParallel<agent_scratchpad> chain...[0m
+
+
+[1m> Entering new RunnableLambda chain...[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new ChatPromptTemplate chain...[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new OpenAIFunctionsAgentOutputParser chain...[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+[32;1m[1;3mHello! I'm Terimic, your AI assistant for the data analysis platform Meritic. I'm here to help you extract relevant information for querying a database of metrics. How can I assist you today?[0m
+
+[1m> Finished chain.[0m
+[32m2024-05-16 16:32:41.528[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m231[0m - [1m{'input': 'Hi', 'chat_history': [HumanMessage(content='Hi'), AIMessage(content="Hello! I'm Terimic, your AI assistant for the data analysis platform Meritic. I'm here to help you extract relevant information for querying a database of metrics. How can I assist you today?")], 'output': "Hello! I'm Terimic, your AI assistant for the data analysis platform Meritic. I'm here to help you extract relevant information for querying a database of metrics. How can I assist you today?"}[0m
+
+
+[1m> Entering new AgentExecutor chain...[0m
+
+
+[1m> Entering new RunnableSequence chain...[0m
+
+
+[1m> Entering new RunnableAssign<agent_scratchpad> chain...[0m
+
+
+[1m> Entering new RunnableParallel<agent_scratchpad> chain...[0m
+
+
+[1m> Entering new RunnableLambda chain...[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new ChatPromptTemplate chain...[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new OpenAIFunctionsAgentOutputParser chain...[0m
+
+[1m> Finished chain.[0m
+
+[1m> Finished chain.[0m
+[32;1m[1;3mHello! I'm Terimic, your AI assistant for the data analysis platform Meritic. How can I assist you with your data analysis today?[0m
+
+[1m> Finished chain.[0m
+[32m2024-05-16 16:39:07.438[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m231[0m - [1m{'input': 'Hi', 'chat_history': [HumanMessage(content='Hi'), AIMessage(content="Hello! I'm Terimic, your AI assistant for the data analysis platform Meritic. How can I assist you with your data analysis today?")], 'output': "Hello! I'm Terimic, your AI assistant for the data analysis platform Meritic. How can I assist you with your data analysis today?", 'intermediate_steps': []}[0m

@@ -1,0 +1,323 @@
+{
+    "header": {
+        "id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+        "name": "OE_REVENUE_WORKSHEET",
+        "description": "Worksheet for revenue",
+        "type": "DATA_MODEL",
+        "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+        "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+        "author_name": "meritic-admin",
+        "created_date_ms": "1711692036110",
+        "last_modified_date_ms": "1711692036110",
+        "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+        "last_modified_by_name": "meritic-admin"
+    },
+    "data_source": {
+        "source_type": "THOUGHTSPOT",
+        "ts_worksheet_id": "c98e79e8-5678-4d38-a703-3c54f556e2a9"
+    },
+    "columns": [
+        {
+            "header": {
+                "id": "6466b7c9-2ec0-4e22-8578-aaf418b35b13",
+                "name": "Autorenew_M",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692030496",
+                "last_modified_date_ms": "1711692030496",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "Autorenew_M",
+            "data_type": "DOUBLE",
+            "column_type": "MEASURE",
+            "default_aggregation": "SUM"
+        },
+        {
+            "header": {
+                "id": "e3297309-5631-4799-80cc-7ee37eae7e0a",
+                "name": "Pcu New Cash",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692024522",
+                "last_modified_date_ms": "1711692024522",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "Pcu New Cash",
+            "data_type": "INT64",
+            "column_type": "MEASURE",
+            "default_aggregation": "SUM"
+        },
+        {
+            "header": {
+                "id": "3637add3-f312-4735-8f3a-bcef9189efda",
+                "name": "Location",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692027076",
+                "last_modified_date_ms": "1711692027076",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "Location",
+            "data_type": "VARCHAR",
+            "column_type": "ATTRIBUTE"
+        },
+        {
+            "header": {
+                "id": "7381ff89-3534-4f1e-b256-107f8545b32b",
+                "name": "Pcu Installments",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692023538",
+                "last_modified_date_ms": "1711692023538",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "Pcu Installments",
+            "data_type": "INT64",
+            "column_type": "MEASURE",
+            "default_aggregation": "SUM"
+        },
+        {
+            "header": {
+                "id": "8a2445dc-59fd-4373-a01a-0064e1167b58",
+                "name": "Installments_M",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692031463",
+                "last_modified_date_ms": "1711692031463",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "Installments_M",
+            "data_type": "DOUBLE",
+            "column_type": "MEASURE",
+            "default_aggregation": "SUM"
+        },
+        {
+            "header": {
+                "id": "6bd5ec47-8ecc-46c9-8292-dc383ec7e65c",
+                "name": "Pillar",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692028528",
+                "last_modified_date_ms": "1711692028528",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "Pillar",
+            "data_type": "VARCHAR",
+            "column_type": "ATTRIBUTE"
+        },
+        {
+            "header": {
+                "id": "d2b0f793-d0a9-4f7f-80a8-2745c6fd886d",
+                "name": "Pcu_Installments_M",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692033428",
+                "last_modified_date_ms": "1711692033428",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "Pcu_Installments_M",
+            "data_type": "DOUBLE",
+            "column_type": "MEASURE",
+            "default_aggregation": "SUM"
+        },
+        {
+            "header": {
+                "id": "62ec0a9d-d824-4ed6-b26f-90a6d51650d6",
+                "name": "Installments",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692021593",
+                "last_modified_date_ms": "1711692021593",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "Installments",
+            "data_type": "INT64",
+            "column_type": "MEASURE",
+            "default_aggregation": "SUM"
+        },
+        {
+            "header": {
+                "id": "258112b5-d39a-429a-8cda-6501c7e66744",
+                "name": "Version",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692018530",
+                "last_modified_date_ms": "1711692018530",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "Version",
+            "data_type": "VARCHAR",
+            "column_type": "ATTRIBUTE"
+        },
+        {
+            "header": {
+                "id": "902ce984-fa40-4488-ab72-9c34e73c9c2a",
+                "name": "Revenue Formula",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692035387",
+                "last_modified_date_ms": "1711692035387",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "Revenue Formula",
+            "data_type": "DOUBLE",
+            "column_type": "MEASURE",
+            "default_aggregation": "SUM"
+        },
+        {
+            "header": {
+                "id": "1c825cfd-4223-458d-b6d0-aef45b93a937",
+                "name": "Pcu_New_Cash_M",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692034408",
+                "last_modified_date_ms": "1711692034408",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "Pcu_New_Cash_M",
+            "data_type": "DOUBLE",
+            "column_type": "MEASURE",
+            "default_aggregation": "SUM"
+        },
+        {
+            "header": {
+                "id": "4a7f7109-7152-4ca6-8297-05b75ae042f0",
+                "name": "New_Cash_M",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692032450",
+                "last_modified_date_ms": "1711692032450",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "New_Cash_M",
+            "data_type": "DOUBLE",
+            "column_type": "MEASURE",
+            "default_aggregation": "SUM"
+        },
+        {
+            "header": {
+                "id": "5585fd0c-3705-4ea6-930e-57aab12bc791",
+                "name": "2nd_Year_M",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692029511",
+                "last_modified_date_ms": "1711692029511",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "2nd_Year_M",
+            "data_type": "DOUBLE",
+            "column_type": "MEASURE",
+            "default_aggregation": "SUM"
+        },
+        {
+            "header": {
+                "id": "2f4d7cff-3ea3-4875-8559-c51197aea157",
+                "name": "New Cash",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692022569",
+                "last_modified_date_ms": "1711692022569",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "New Cash",
+            "data_type": "INT64",
+            "column_type": "MEASURE",
+            "default_aggregation": "SUM"
+        },
+        {
+            "header": {
+                "id": "34095e55-b9b0-4268-ac73-36f6ef15092a",
+                "name": "Date",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692025650",
+                "last_modified_date_ms": "1711692025650",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "Date",
+            "data_type": "DATE",
+            "column_type": "TEMPORAL"
+        },
+        {
+            "header": {
+                "id": "35dc4b15-0386-4b7b-ac22-70855dd6985b",
+                "name": "2nd Year",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692019625",
+                "last_modified_date_ms": "1711692019625",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "2nd Year",
+            "data_type": "INT64",
+            "column_type": "MEASURE",
+            "default_aggregation": "SUM"
+        },
+        {
+            "header": {
+                "id": "7933e214-34c9-439a-8bab-7e43ed4921ea",
+                "name": "Autorenew",
+                "type": "LOGICAL_COLUMN",
+                "owner_id": "d442bb1c-caf1-44eb-8281-9238614aba3a",
+                "author_id": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "author_name": "meritic-admin",
+                "created_date_ms": "1711692020608",
+                "last_modified_date_ms": "1711692020608",
+                "last_modified_by": "02c73738-9481-4d0f-85c4-e927c6a09d09",
+                "last_modified_by_name": "meritic-admin"
+            },
+            "source_column_name": "Autorenew",
+            "data_type": "INT64",
+            "column_type": "MEASURE",
+            "default_aggregation": "SUM"
+        }
+    ]
+}
